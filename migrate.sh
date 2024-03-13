@@ -1,10 +1,11 @@
+#!/bin/bash
+
 # `migrate.sh`
 # It is a wrapper script for `migrate` CLI tool. It is used to run migrations, create new migrations, set version and display the current database version.
 # It is used to simplify the usage of `migrate` CLI tool and to avoid the need of remembering the commands and flags.
 # Notice that `migrate` CLI tool is required to be installed in the system.
 # Check the official documentation for more information: https://github.com/golang-migrate/migrate/blob/master/cmd/migrate/README.md
 
-#!/bin/bash
 set -e
 
 migrations_dir="migrations/"
